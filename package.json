@@ -1,0 +1,14 @@
+{
+  "name": "clickbank-meta-sync",
+  "version": "1.0.0",
+  "description": "Fetch ClickBank sales and send to Meta Pixel API every hour",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.2",
+    "node-cron": "^3.0.2",
+    "dotenv": "^16.3.1"
+  }
+}
